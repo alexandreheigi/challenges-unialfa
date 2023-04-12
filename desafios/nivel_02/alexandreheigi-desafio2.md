@@ -1,6 +1,6 @@
-#Desafio 02 exercicio 01
+# Desafio 02 exercicio 01
 
-*criado o arquivo exceldesafio.php:
+* criado o arquivo exceldesafio.php:
     - linha 3 - criado a variavel "dados" com nome/sobrenome/idade;
     - linha 5 a 10 - criado a variavel "pessoa" e alimentada com os dados;
     - linha 12 - criado a variavel "arquivo" e chamada a função fopen para criar um arquivo de planilha;
@@ -9,8 +9,7 @@
     - linha 20 - função fclose para finalizar
 
 
-
-<?php
+```php
 
 $dados = ["nome", "sobrenome","idade"];
 
@@ -33,6 +32,5 @@ fclose($arquivo);
     
 
 
-?>
 
-
+```
