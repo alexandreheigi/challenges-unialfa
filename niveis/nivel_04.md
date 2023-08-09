@@ -11,7 +11,7 @@
     7. Após obter o valor de atack dos 2 pokemons, crie uma lógica que compare qual é o pokemon que tem maior valor de atack e retorne o vencedor.
     8. [feature] Após finalizar, adicionar também para gravar um log das batalhas em um arquivo.
 3. Crie em seu github um novo repositório chamado desafio-unialfa-nivel04-ex3
-    1. Realize o Clone do repositório em seu htdocs
+    1. Realize o Clone do repositório
     2. Abra o repositório clonado no VsCode
     3. Desenvolva uma API que consuma a seguinte API: https://api.punkapi.com/v2/beers
     4. Ao obter o retorno dos dados, salve em um arquivo csv (Excel).
@@ -19,3 +19,16 @@
     6. Desenvolva uma API que realize o Download do arquivo Excel.
         1. O endpoint vai buscar o arquivo excel gravado e retornar a opcao de download para salvarmos em algum diretório fora do projeto.
         2. Realize o commit e push para o repositório. Para responder este exercicio coloque o link do seu repositório em um arquivo .md enviando na sessao de respostas.
+4. Crie em seu github um novo repositório chamado desafio-unialfa-nivel04-ex4
+    1. Realize o Clone do repositório
+    2. Abra o repositório clonado no VsCode
+    3. Instale no projeto usando o composer a seguinte lib: **composer require openai-php/laravel**
+        OBS: Repositório da lib: https://github.com/openai-php/laravel
+    4. É necessário criar uma conta na plataforma openIA, para obter as credenciais: https://platform.openai.com/
+    5. Desenvolver uma API com o endpoint **/chat**
+    6. Enviar para a openIA através da lib que foi instalada o prompt passando alguma mensagem do que você quer
+    7. Ao obter a reposta, guarde em um arquivo de LOG.
+5. Clonar o repositório a seguir e resolver os bugs https://github.com/alexmpereira/php-xdebug
+    OBS: Como resposta ao desafio, crie um arquivo markdown e coloque as soluções e explicando.
+6. Clonar o repositório a seguir realizar a refatoração de boas práticas https://github.com/alexmpereira/good-coding-practices
+    OBS: Como resposta ao desafio, crie um arquivo markdown e coloque as soluções e explicando.
